@@ -1,4 +1,5 @@
-#include <stdio.h>>
+#include <stdio.h>
+#include <stdlib.h>
 
 #define texto "entrada e saida de dado."
 
@@ -18,6 +19,8 @@ int main(){
 
     printf("Digite seu nome:\n");
     scanf("%s", name);
+
+    system("cls"); //limpar tela
 
     printf("Dados informados são: \n");
     printf("Idade informada é: %d. \n", age);
