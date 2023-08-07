@@ -8,6 +8,6 @@ int main(){
     scanf("%f", &m);
 
     if (m >= 7.0){
-        printf("aprovado(a)! \n);
+        printf("aprovado(a)! \n");
     }
 }
